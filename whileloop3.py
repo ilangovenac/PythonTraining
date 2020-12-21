@@ -49,19 +49,40 @@
 #    print('Not Armstrong number')
     
 #Printing a Fibonacci series
-n1=-1
-n2=1
-range=int(input('Enter range of Fibonacci series: '))
-while range>0:
-    sum=n1+n2
-    print(sum,end=' ')
-    n1=n2
-    n2=sum
-    range-=1
+#n1=-1
+#n2=1
+#range=int(input('Enter range of Fibonacci series: '))
+#while range>0:
+#    sum=n1+n2
+#    print(sum,end=' ')
+#    n1=n2
+#    n2=sum
+#    range-=1
 
+#Finding a Neon number
+
+#num=num2=int(input('Enter a number: '))
+#digitsum=0
+#while num>0:
+#        digitsum+=num%10
+#        num//=10
+#if digitsum**2==num2:
+#    print('Neon number')
+#else:
+#    print('Not Neon number')
     
-    
-    
+#Finding a Perfect number
+num=int(input('Enter a number: '))
+i=1
+sum=0
+while i<num:
+        if num%i==0:
+            sum+=i
+        i+=1
+if sum==num:
+    print('Perfect number')
+else:
+    print('Not Perfect number')
     
     
     
