@@ -11,13 +11,20 @@
 #print('LCM of two numbers:',limit)
 
 #Program to find prime number in a range
-
-n=int(input('Enter a number: '))
-i=2
-while i<n:
-    if n%i==0:
-        print('Non prime number')
-        break
-    i+=1
-else:
-    print('Prime number')
+#n=int(input('Enter a number: '))
+#i=2
+#while i<n:
+#    if n%i==0:
+#        print('Non prime number')
+#        break
+#    i+=1
+#else:
+#    print('Prime number')
+    
+#Program to find factorial of a number
+#n=int(input('Enter a number: '))
+#p=i=1
+#while i<=n:
+#    p*=i
+#    i+=1
+#print('Factorial of number:',p)
