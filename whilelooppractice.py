@@ -1,5 +1,4 @@
 #Program to find LCM of two numbers
-
 #n1=int(input('Enter first number: '))
 #limit=n2=int(input('Enter second number: '))
 #if n1>n2:
@@ -28,3 +27,28 @@
 #    p*=i
 #    i+=1
 #print('Factorial of number:',p)
+
+#Program to accept a filename from the user and print the extension of that
+#file=input('Enter filename with extension: ')
+#i=0
+#while i<len(file):
+#    if file[i]=='.':
+#        print('File extension:',file[i+1:])
+#        break
+#    i+=1
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
