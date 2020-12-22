@@ -95,7 +95,21 @@
 #        i+=1
 #        print('*********')
         
-    
+#Finding Strong number
+num=num2=int(input('Enter a number: '))
+sumfact=0
+while num>0:
+    digit=num%10
+    total=1
+    while digit>=1:
+        total*=digit
+        digit-=1
+    sumfact+=total
+    num//=10
+if num2==sumfact:
+    print('Strong number')
+else:
+    print('Not Strong number')    
     
     
     
