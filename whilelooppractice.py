@@ -37,6 +37,31 @@
 #        break
 #    i+=1
 
+#Program to convert interger to binary values
+#num=int(input('Enter a positive integer: '))
+#binary=''
+#while num!=0:
+#    binary+=str(num%2)
+#    num//=2
+#i=len(binary)-1
+#print('Binary value: ')
+#while i>=0:
+#    print(binary[i],end='')
+#    i-=1
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
