@@ -72,19 +72,29 @@
 #    print('Not Neon number')
     
 #Finding a Perfect number
-num=int(input('Enter a number: '))
-i=1
-sum=0
-while i<num:
-        if num%i==0:
-            sum+=i
-        i+=1
-if sum==num:
-    print('Perfect number')
-else:
-    print('Not Perfect number')
+#num=int(input('Enter a number: '))
+#i=1
+#sum=0
+#while i<num:
+#        if num%i==0:
+#            sum+=i
+#        i+=1
+#if sum==num:
+#    print('Perfect number')
+#else:
+#    print('Not Perfect number')
     
-    
+#Program to print multiplication table
+#n=int(input('Enter maximum range for table: '))
+#i=1
+#while i<=n:
+#        m=1
+#        while m<=10:
+#            print(i,'x',m,'=',i*m)
+#            m+=1
+#        i+=1
+#        print('*********')
+        
     
     
     
