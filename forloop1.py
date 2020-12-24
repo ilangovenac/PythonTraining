@@ -63,6 +63,19 @@
 #    print(f+s,end=' ')
 #    s=f+s
 #    f=s-f
+
+#Finding a prime number
+n=int(input('Enter a number: '))
+if n==2: #2 is not considered in forloop, hence checking here
+    print('Prime')
+elif n%2==0: #even numbers are not prime
+    print('Not Prime')
+else:
+    for x in range(2,n):
+        if n%x==0:
+            print('Not Prime')
+    else:
+        print('Prime number')
    
     
     
