@@ -89,3 +89,30 @@ while row<=5:
 
 #6
 
+n=int(input('Enter range: '))
+row=1
+while row<=(n*2)-1:
+    while row<=n:
+        col=1
+        while col<=row:
+            print(col,end=' ')
+            col+=1
+        col=row-1
+        while col>=1:
+            print(col,end=' ')
+            col-=1
+        print()
+        row+=1
+        
+    while row>n and row<=(n*2)-1:
+        s=n-(row-n)
+        col=1
+        while col<=s:
+            print(col,end=' ')
+            col+=1
+        col=s-1
+        while col>=1:
+            print(col,end=' ')
+            col-=1
+        print()
+        row+=1
