@@ -1,3 +1,152 @@
+#Basic pattern
+row=1
+while row<=5:
+    col1=1
+    while col1<=5:
+        print('-',end=' ')
+        col1+=1
+    col2=1
+    while col2<=5:
+        print('*',end=' ')
+        col2+=1
+    print()
+    row+=1
+
+print('//////////')
+
+#Variation 1
+row=1
+while row<=5:
+    col=5
+    while col>row:
+        print('-',end=' ')
+        col-=1
+    col2=1
+    while col2<=row:
+        print('*',end=' ')
+        col2+=1
+    print()
+    row+=1
+
+print('//////////')
+
+#Variation 2
+row=1 
+while row<=5:
+    col=1
+    while col<row:
+        print('-',end=' ')
+        col+=1
+    col2=1
+    while col2<=6-row:
+        print('*', end=' ')
+        col2+=1
+    print()
+    row+=1    
+
+print('//////////')
+    
+#Variation 3
+row=1
+while row<=5:
+    col=1
+    while col<=6-row:
+        print('*',end=' ')
+        col+=1
+    col2=1
+    while col2<row:
+        print('-',end=' ')
+        col2+=1
+    print()
+    row+=1
+
+print('//////////')
+
+#Variation 4   
+row=1
+while row<=5:
+    col=1
+    while col<=row:
+        print('*',end=' ')
+        col+=1
+    col2=5
+    while col2>row:
+        print('-',end=' ')
+        col2-=1
+    print()
+    row+=1   
+
+print('//////////')
+   
+#Combination of pattern
+
+#Half diamond
+row=1
+while row<=5:
+    col=5
+    while col>=row:
+        print('*',end=' ')
+        col-=1
+    col2=1
+    while col2<row:
+        print('-',end=' ')
+        col2+=1
+    col3=1
+    while col3<row:
+        print('-',end=' ')
+        col3+=1
+    col4=5
+    while col4>=row:
+        print('*',end=' ')
+        col4-=1
+    print()
+    row+=1
+
+print('//////////')
+
+#Full diamond
+row=1
+while row<=5:
+    col=5
+    while col>=row:
+        print('*',end=' ')
+        col-=1
+    i=1
+    while i<=2:
+        col2=1
+        while col2<row:
+            print('-',end=' ')
+            col2+=1
+        i+=1
+    col4=5
+    while col4>=row:
+        print('*',end=' ')
+        col4-=1
+    print()
+    row+=1
+    
+row=1
+while row<=5:
+    col=1
+    while col<=row:
+        print('*',end=' ')
+        col+=1
+    i=1
+    while i<=2:
+        col2=5
+        while col2>row:
+            print('-',end=' ')
+            col2-=1
+        i+=1
+    col3=1
+    while col3<=row:
+        print('*',end=' ')
+        col3+=1
+    print()
+    row+=1
+ 
+print('//////////')
+
 #Hollow square
 side=int(input('Enter side of square: '))
 row=1
@@ -55,7 +204,6 @@ while row<=side:
     row+=1
     
 #Hollow Rhombus
-
 side=int(input('Enter side of Rhombus: '))
 row=1
 while row<=side:
