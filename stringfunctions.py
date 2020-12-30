@@ -40,3 +40,26 @@ print(s.isdigit())
 print(s.isupper())
 print(s.islower())
 print(s.isspace())
+
+#Program to alternatively merge two strings
+s1=input('Enter 1st string: ')
+s2=input('Enter 2nd string: ')
+comb=''
+if len(s1)<len(s2):
+    for i in range(len(s1)):
+        comb=comb+s1[i]+s2[i]
+        i+=1
+    for x in range(i,len(s2)):
+        comb+=s2[x]
+        x+=1
+    print('Merged string is:',comb)
+else:
+    for i in range(len(s2)):
+        comb=comb+s1[i]+s2[i]
+        i+=1
+    for x in range(i,len(s1)):
+        comb+=s1[x]
+        x+=1
+    print('Merged string is:',comb)    
+
+
