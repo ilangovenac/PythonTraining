@@ -59,3 +59,26 @@ while i<len(lst):
     i+=1
 out=' '.join(lst1)
 print(out)
+
+#Printing a matrix
+lst=[[1,2,3],[4,5,6],[7,8,9]]
+j=0
+while j<3:
+    i=0
+    while i<3:
+        print(lst[j][i],end=' ')
+        i+=1
+    print()   
+    j+=1
+
+
+#Transposing a matrix
+lst=[[1,2,3],[4,5,6],[7,8,9]]
+j=0
+while j<3:
+    i=0
+    while i<3:
+        print(lst[i][j],end=' ')
+        i+=1
+    print()   
+    j+=1
