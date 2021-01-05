@@ -1,3 +1,14 @@
+#Sorting names and time
+names=['kumar','ravi','bala','dina']
+time=[13,11,16,10.3]
+for i in range(len(time)):
+    for j in range(i,len(time)):
+        if time[i]>time[j]:
+            time[i],time[j]=time[j],time[i]
+            names[i],names[j]=names[j],names[i]
+for i in range(len(time)):
+    print(names[i]+'-',time[i])
+
 #Sorting list
 lst=[23,12,45,35,11]
 lst1=['ravi','kumar','abc','xyz']
