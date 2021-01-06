@@ -1,4 +1,23 @@
 #Homework problem
+#Program to find salary/month using dict
+weekhrs={}
+for x in range(1,5):
+    wkno=x
+    hrs=int(input('Enter hours in Week%d: '%x))
+    weekhrs[wkno]=hrs
+sal,i=0,1
+for x in weekhrs.values():
+    if x<45:
+        print('LOW WORK IN WEEK %d'%i)
+        sal+=(x*100)
+    elif x>60:
+        sal+=6750#45*100+(60-45)*150
+    else:
+        sal+=4500+(x-45)*150
+    i+=1
+print('Total salary for the month:',sal)
+
+
 #To find salary per month
 l=[]
 for x in range(1,5):
@@ -17,6 +36,7 @@ for x in l:
         sal+=4500+(x-45)*150
     i+=1
 print('Total salary for the month:',sal)
+
 
 #dict datatype
 
