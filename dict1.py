@@ -6,13 +6,16 @@ for x in range(1,5):
     h=int(input())
     l.append(h)
 sal=0
+i=1
 for x in l:
     if x<45:
+        print('LOW WORK IN WEEK %d'%i)
         sal+=(x*100)
     elif x>60:
         sal+=6750#45*100+(60-45)*150
     else:
         sal+=4500+(x-45)*150
+    i+=1
 print('Total salary for the month:',sal)
 
 #dict datatype
