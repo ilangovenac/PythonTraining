@@ -21,6 +21,17 @@ print(d)
 d={values:keys for keys,values in d.items()}
 print(d)
 
+#Sorting of keys and values in a dict
+d={1244:'Ilango',1433:'Kumar',1001:'Raj',1992:'Ravi'}
+
+for x in sorted(d.keys()):
+    print(x)
+for x in sorted(d.values()):
+    print(x)
+for x in sorted(d.items()):
+    print(x)
+
+
 #Binary selection
 l=[12,23,34,45,56,67,87,88]
 l.sort()
@@ -63,6 +74,23 @@ for x in range(length):
         if l[i]>l[i+1]:
             l[i],l[i+1]=l[i+1],l[i]
 print('Sorted order:',l)
+
+
+#update() function in dict
+d1={1000:'Ilango',1001:'Raj'}
+d2={1002:'Kumar',1003:'Dina'}
+d3={1005:'Ravi'}
+d={}
+print(d)
+d.update(d1)#update() takes only one argument
+print(d)
+d.update(d2)
+print(d)
+d.update(d3)
+print(d)
+d4={1000:'James'}#to change value of a key 
+d.update(d4)
+print(d)
 
 
 
